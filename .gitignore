@@ -1,0 +1,12 @@
+# Ignore Terraform directories
+.terraform/
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Ignore backup or local state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore specific custom files or folders
+outputs.tf
